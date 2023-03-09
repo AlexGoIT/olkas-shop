@@ -1,17 +1,51 @@
 body {
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   font-size: 15px;
   font-weight: 400;
   color: #000000;
 }
 
+.section {
+  padding-block: 50px;
+}
+
 .container {
   max-width: 1180px;
-  margin-left: auto;
-  margin-right: auto;
+  margin-inline: auto;
+  padding-inline: 35px;
 }
 
 .link {
-  text-decoration: none;
   color: inherit;
+}
+
+.title-wrap {
+  display: flex;
+  align-items: center;
+}
+
+.title {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 1.24;
+  letter-spacing: 0.05em;
+}
+
+.view-more-wrap {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.view-more {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 1.27;
+  letter-spacing: 0.05em;
+}
+
+.view-more-icon {
 }

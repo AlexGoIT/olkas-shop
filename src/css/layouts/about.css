@@ -1,5 +1,65 @@
-link {
-    text-decoration: none;  
+.about-title {
+    display: none;
 }
 
-/* Це я просто спробувала */
+.about-describtion {
+  width: 410px; 
+  text-align: right; 
+}
+
+.about-name {
+    text-transform: uppercase;
+    font-weight: 200;
+    font-size: 40px;
+    line-height: 1.25;
+    /* text-align: right; */
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+
+    margin-bottom: 28px;
+}
+
+.about-text {
+    font-weight: 200;
+    font-size: 24px;
+    line-height: 1.25;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+}
+
+.quantity {
+    font-weight: 200;
+    font-size: 40px;
+    line-height: 0.8;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+
+    margin-bottom: 6px;
+}
+
+.about-shop, .shop-link,
+.contacts-link {
+    font-size: 16px;
+    line-height: 0.8;
+    letter-spacing: 0.05em;
+    text-transform: capitalize;
+}
+
+.shop-link, .contacts-link {
+    color: #838181;
+}
+
+.container.about {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.about-list {
+    display: flex;
+}
+
+.about-item {
+    margin-right: 52px;
+    margin-bottom: 53px;
+}

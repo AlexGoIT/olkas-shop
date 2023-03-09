@@ -1,0 +1,115 @@
+.list{
+    list-style: none;
+}
+.footer{
+    background-color:  #000000;
+}
+.footer-container{  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 0;
+}
+.footer-navigation{
+    display: flex;
+    align-items: center;    
+}
+.logo-footer{
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 1.27;
+    letter-spacing: 0.25em;
+    color: #FFFFFF;
+}
+.footer-social-list{
+    display: flex;
+    gap: 12px;
+}
+.social-list-icon{
+    fill: rgba(255, 255, 255, 0.6);
+}
+.social-list-icon:hover{
+    fill: #FFFFFF;;
+}
+.menu-footer{
+    display: flex;
+    gap: 70px;
+    margin-left: 150px;
+}
+.menu-footer-list{
+    max-width: 117px;    
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.footer-part-three,
+.submenu-footer-list,
+.footer-part-five,
+.footer-contact{
+    display: flex;
+    flex-direction: column;
+}
+.footer-part-three{
+    gap: 19px;
+}
+.text-footer{
+    line-height: 1.27;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+}
+.text-footer:hover{
+color:  rgba(255, 255, 255, 0.6);;
+}
+.submenu-footer-list{
+    gap: 10px;
+}
+.btn-up{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 65px;
+    height: 65px;
+    background-color: #A59B84;
+    border-radius: 50%;
+    padding: 15px;
+}
+.btn-up:hover{
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #6F6E6E;
+}
+.up-icon{
+    fill: #FFFFFF;;
+}
+.footer-part-five{
+    align-items: end;
+}
+.btn-footer{
+    border: 1px solid #FFFFFF;
+    border-radius: 15px;
+    background-color: transparent;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.25;
+    letter-spacing: 0.05em;
+    padding: 6px 18px;
+    margin-bottom: 56px;
+}
+.btn-footer:hover{
+    background: rgba(255, 255, 255, 0.15);
+}
+.footer-contact{
+    align-items: end;
+    gap: 10px;
+}
+.footer-contact-link{
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 1.27;
+    letter-spacing: 0.05em;
+    color: rgba(255, 255, 255, 0.8);
+}
+.footer-contact-link:hover{
+    color: #FFFFFF;
+}
+
+

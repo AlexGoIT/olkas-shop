@@ -1,0 +1,51 @@
+.categiries-list {
+  display: flex;
+  margin-top: 40px;
+  gap: 30px;
+}
+
+.categories-item {
+  position: relative;
+  width: 255px;
+  height: auto;
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.favorites-icon {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  fill: #6f6e6e;
+}
+
+.article-wrap {
+  padding: 30px 17px;
+  display: flex;
+}
+
+.article-title {
+  max-width: 125px;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 125%;
+  /* or 19px */
+
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.article-cost {
+  margin-left: auto;
+  font-size: 17px;
+  line-height: 1.24;
+  letter-spacing: 0.05em;
+  color: #000000;
+}
+
+.handbag-icon {
+  margin-left: 20px;
+  fill: #000000;
+}

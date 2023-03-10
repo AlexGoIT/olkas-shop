@@ -25,6 +25,7 @@
     line-height: 1.25;
     letter-spacing: 0.2em;
     text-transform: uppercase;
+    padding-left: 20px;
 }
 
 .quantity {
@@ -55,11 +56,25 @@
     
 }
 
+.about-info {
+    display: flex;
+    flex-direction: column;
+}
+
 .about-list {
     display: flex;
+    margin-bottom: 53px;
+    padding-top: 10px;
 }
 
 .about-item {
-    margin-right: 52px;
-    margin-bottom: 53px;
+    margin-right: 52px;   
+}
+
+.about-nav {
+    display: flex;
+}
+
+.about-nav-link:not(:last-child) {
+    margin-right: 56px;
 }

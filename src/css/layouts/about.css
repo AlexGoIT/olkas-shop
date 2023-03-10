@@ -1,0 +1,79 @@
+.about-title {
+    display: none;
+}
+
+.about-describtion {
+  width: 410px; 
+  text-align: right; 
+}
+
+.about-name {
+    text-transform: uppercase;
+    font-weight: 200;
+    font-size: 40px;
+    line-height: 1.25;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+
+    margin-bottom: 28px;
+}
+
+.about-text {
+    font-weight: 200;
+    font-size: 24px;
+    line-height: 1.25;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    padding-left: 20px;
+}
+
+.quantity {
+    font-weight: 200;
+    font-size: 40px;
+    line-height: 0.8;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+
+    margin-bottom: 6px;
+}
+
+.about-shop, .shop-link,
+.contacts-link {
+    font-size: 16px;
+    line-height: 0.8;
+    letter-spacing: 0.05em;
+    text-transform: capitalize;
+}
+
+.shop-link, .contacts-link {
+    color: #838181;
+}
+
+.container.about {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.about-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.about-list {
+    display: flex;
+    margin-bottom: 53px;
+    padding-top: 10px;
+}
+
+.about-item {
+    margin-right: 52px;   
+}
+
+.about-nav {
+    display: flex;
+}
+
+.about-nav-link:not(:last-child) {
+    margin-right: 56px;
+}

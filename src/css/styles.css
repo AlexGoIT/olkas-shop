@@ -10,5 +10,6 @@
 @import url('./base/general.css');
 
 @import url('./layouts/header.css');
+@import url('./layouts/hero.css');
 @import url('./layouts/popular-categories.css');
 @import url('./layouts/footer.css');

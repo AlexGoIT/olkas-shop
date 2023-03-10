@@ -1,0 +1,100 @@
+.hero-container{
+    position: relative;
+    margin-top: 30px;
+}
+.hero-top{
+    display: flex;    
+    /* margin-bottom: 71px; */
+    margin-bottom: 175px;
+}
+.hero-top-right{
+    margin-right: 40px;
+}
+.main-title{
+    width: 430px;
+    font-weight: 200;
+    font-size: 35px;
+    line-height: 1.26;
+    text-align: right;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    margin-top: 66px;
+    padding-right: 40px;
+}
+.btn-go-catalog{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 65px;
+    height: 65px;
+    border: 2px solid #A59B84;
+    background-color: #A59B84;
+    border-radius: 50%;
+    padding: 15px;
+    margin-top: 94px;
+    margin-left: 105px;
+}
+.btn-go-catalog:hover{
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #6F6E6E;
+    border-color: transparent;
+}
+.go-catalog-icon{
+    fill: #FFFFFF;
+}
+.hero-social-list{
+    display: flex;
+    gap: 12px;
+}
+.hero-social-list-icon{
+    fill: rgba(0, 0, 0, 0.6);
+}
+.hero-social-list-icon:hover{
+    fill:  #000000;
+}
+.hero-cards{
+    display: flex;
+    gap: 20px;
+}
+.hero-article-title{
+    width: 232px;
+    height: 38px;
+    font-weight: 600;
+    line-height: 1.27;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}
+.hero-article-wrap{
+    display: flex;
+    gap: 6px;
+    margin-top: 30px;
+    margin-bottom: 30px;    
+}
+.hero-article-wrap:hover{
+color: #845701;
+fill: #845701;
+}
+.decor-circle-big{
+    position: absolute;
+    top: -80px;
+    left: 0;
+    width: 513px;
+    height: 513px;
+    border:  1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 50%;
+    z-index: -1;
+}
+.hero-top-right{
+    position: absolute;
+    right: -109px;
+}
+.decor-circle-gradient-hero{
+    position: absolute;
+    top: -34px;
+    left: -34px;
+    width: 370px;
+    height: 370px;
+    background: rgba(165, 155, 132, 0.4);
+    filter: blur(25px);
+    border-radius: 50%;
+    z-index: -1;
+}

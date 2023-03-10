@@ -1,4 +1,4 @@
-.suscribe-wrapr{
+.subscribe-wrap{
     display: flex;
     justify-content: space-between;
     background: #A59B84;  
@@ -18,7 +18,7 @@
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #6F6E6E;
     border-color: transparent;
 }
-.suscribe-left{
+.subscribe-left{
     margin-top: 151px;
     margin-left: 78px;
 }

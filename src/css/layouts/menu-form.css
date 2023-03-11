@@ -25,17 +25,7 @@
   background-position: center;
   background-size: cover;
 }
-/* .decor-circle-big-menu {
-  position: absolute;
-  top: 102px;
-  left: 83px;
-  width: 513px;
-  height: 513px;
-  border: 1px solid rgba(255, 255, 255, 0.3);
-  border-radius: 50%;
-  z-index: 1001;
-  pointer-events: none;
-} */
+
 .mobile-menu-container {
   display: flex;
   justify-content: space-between;

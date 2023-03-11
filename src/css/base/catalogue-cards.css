@@ -1,0 +1,107 @@
+/* ========== CATALOGUE CARD SECTION ========== */
+.section-title-wrap {
+  display: flex;
+  align-items: center;
+}
+
+.section-title {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 1.24;
+  letter-spacing: 0.05em;
+}
+
+.section-view-more-link {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  transition: color 250ms ease;
+}
+
+.section-view-more-link:hover,
+.section-view-more-link:focus {
+  color: #845701;
+}
+
+.section-view-more {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 1.27;
+  letter-spacing: 0.05em;
+}
+
+.section-view-more-icon {
+  fill: #000000;
+  transition: fill 250ms ease;
+}
+
+.section-view-more-link:hover .section-view-more-icon,
+.section-view-more-link:focus .section-view-more-icon {
+  fill: #845701;
+}
+/* ========== CATALOGUE CARD SECTION ========== */
+
+/* ========== CATALOGUE CARDS ========== */
+.catalogue-card-list {
+  display: flex;
+  margin-top: 40px;
+  gap: 30px;
+}
+
+.catalogue-card-item {
+  position: relative;
+  width: 255px;
+  height: auto;
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.catalogue-card-favorites-icon {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  fill: #6f6e6e;
+}
+
+.catalogue-card-article-wrap {
+  padding: 30px 17px;
+  display: flex;
+}
+
+.catalogue-card-article-title {
+  max-width: 125px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.catalogue-card-article-title-link {
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 1.25;
+  color: #000000;
+  transition: color 250ms ease;
+}
+
+.catalogue-card-article-title-link:hover,
+.catalogue-card-article-title-link:focus {
+  color: #845701;
+}
+
+.catalogue-card-article-cost {
+  margin-left: auto;
+  font-size: 17px;
+  line-height: 1.24;
+  letter-spacing: 0.05em;
+  color: #000000;
+}
+
+.catalogue-card-handbag-icon {
+  margin-left: 20px;
+  fill: #000000;
+}
+/* ========== CATALOGUE CARDS ========== */

@@ -13,7 +13,6 @@
     visibility: hidden;
     pointer-events: none;
 }
-
 .modal-menu{
     position: absolute;
     top: 50%;
@@ -21,7 +20,6 @@
     transform: translate(-50%,-50%);
     width: 774px; 
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #6F6E6E;
-
 }
 .decor-circle-big-menu{
     position: absolute;
@@ -130,54 +128,3 @@
 .contact-menu-link:focus{
     color: #FFFFFF;
 }
-/* .mobile-menu{
-    position:fixed;
-    width: 100%;
-    height: 100%;
-    z-index: 1000;
-    top: 0;
-    left: 0; 
-    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
-    opacity: 0;
-    visibility: hidden;
-    pointer-events: none;
-    transition: opacity var(--timing-function), visibility var(--timing-function);
-}
-.mobile-menu.is-open{
-    opacity: 1;
-    visibility: visible;
-    pointer-events: auto;
-}
-.mobile-menu-container{
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-    padding-bottom: 40px;
-    padding-right: 40px;
-    padding-left: 40px;  
-}
-.modal-close-btn-mobile{
-    top: 40px;
-    right: 40px;
-}
-
-
-.modal-close-btn:hover,
-.modal-close-btn:focus{
-    background-color: var(--accent-color-hover);
-}
-.modal-close-btn-icon{
-    transition: fill var(--timing-function);
-}
-.modal-close-btn:hover .modal-close-btn-icon,
-.modal-close-btn:focus .modal-close-btn-icon{
-    fill: var(--primary-text-color-theme-dark);
-}
-.mobile-menu-open{
-    background: transparent;
-    border: none;
-    padding: 0;
-    line-height: 0;
-} */
-

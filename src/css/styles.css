@@ -4,6 +4,8 @@
   | default @import url()
   |============================
 */
+@import 'swiper/css/bundle';
+
 @import url('./base/value.css');
 @import url('./base/reset.css');
 @import url('./base/general.css');

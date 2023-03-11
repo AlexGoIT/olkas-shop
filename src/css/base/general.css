@@ -19,6 +19,7 @@ body {
   color: inherit;
 }
 
+/* ========== Catalogue cards section ========== */
 .title-wrap {
   display: flex;
   align-items: center;
@@ -32,11 +33,17 @@ body {
   letter-spacing: 0.05em;
 }
 
-.view-more-wrap {
+.view-more-link {
   margin-left: auto;
   display: flex;
   align-items: center;
   gap: 12px;
+  transition: color 250ms ease;
+}
+
+.view-more-link:hover,
+.view-more-link:focus {
+  color: #845701;
 }
 
 .view-more {
@@ -48,4 +55,11 @@ body {
 }
 
 .view-more-icon {
+  fill: #000000;
+  transition: fill 250ms ease;
+}
+
+.view-more-link:hover .view-more-icon,
+.view-more-link:focus .view-more-icon {
+  fill: #845701;
 }

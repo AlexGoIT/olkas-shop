@@ -1,3 +1,7 @@
+.about.section {
+    padding-bottom: 100px;
+}
+
 .about-title {
     display: none;
 }
@@ -30,7 +34,7 @@
 .quantity {
     font-weight: 200;
     font-size: 40px;
-    line-height: 0.8;
+    line-height: 1.25;
     letter-spacing: 0.2em;
     text-transform: uppercase;
 
@@ -40,7 +44,7 @@
 .about-shop, .shop-link,
 .contacts-link {
     font-size: 16px;
-    line-height: 0.8;
+    line-height: 1.25;
     letter-spacing: 0.05em;
     text-transform: capitalize;
 }
@@ -63,7 +67,6 @@
 .about-list {
     display: flex;
     margin-bottom: 53px;
-    padding-top: 10px;
 }
 
 .about-item {

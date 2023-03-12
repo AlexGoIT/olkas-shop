@@ -14,7 +14,7 @@
 
 .main-title {
   font-style: normal;
-  width: 408px;
+  width: 430px;
   font-weight: 200;
   font-size: 35px;
   line-height: 1.26;
@@ -22,10 +22,11 @@
   letter-spacing: 0.2em;
   text-transform: uppercase;
   margin-top: 147px;
+  margin-right: 35px;
 }
 .btn-go-catalog {
-  width: 58px;
-  height: 58px;
+  width: 59px;
+  height: 59px;
   margin-top: 82px;
   margin-left: 134px;
   display: flex;
@@ -84,15 +85,15 @@
   z-index: -1;
 }
 .hero-top-right {
-  position: relative;
-  padding-left: 40px;
-  padding-top: 80px;
+ 
+  padding-left: 0px;
+  padding-top: 102px;
 }
 
 .decor-circle-gradient-hero {
   position: absolute;
-  top: 30px;
-  left: 0;
+  top: 66px;
+  left: 422px;
   z-index: -1;
   width: 370px;
   height: 370px;

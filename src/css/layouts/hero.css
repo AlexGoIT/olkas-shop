@@ -1,5 +1,5 @@
 .hero {
-  padding-bottom: 50px;
+  padding-top: 0;
 }
 
 .hero-container {
@@ -23,17 +23,16 @@
   margin-top: 147px;
 }
 .btn-go-catalog {
+  width: 58px;
+  height: 58px;
+  margin-top: 82px;
+  margin-left: 134px;
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 65px;
-  height: 65px;
   border: 2px solid #a59b84;
-  background-color: #a59b84;
   border-radius: 50%;
-  padding: 15px;
-  margin-top: 94px;
-  margin-left: 105px;
+  background-color: #a59b84;
 }
 .btn-go-catalog:hover {
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
@@ -44,7 +43,8 @@
   fill: #ffffff;
 }
 .hero-social-list {
-  display: flex;
+  margin-top: 51px;
+  display: none;
   gap: 12px;
 }
 .hero-social-list-icon {
@@ -84,13 +84,13 @@
 }
 .hero-top-right {
   position: relative;
-  padding-left: 35px;
-  padding-top: 35px;
+  padding-left: 40px;
+  padding-top: 80px;
 }
 
 .decor-circle-gradient-hero {
   position: absolute;
-  top: 0;
+  top: 30px;
   left: 0;
   z-index: -1;
   width: 370px;
@@ -107,7 +107,7 @@
 }
 
 .hero-slider-wrap {
-  width: 645px;
+  width: 640px;
   overflow: hidden;
 }
 

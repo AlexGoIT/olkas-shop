@@ -29,9 +29,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 2px solid #a59b84;
+  border: 2px solid #838181;
   border-radius: 50%;
-  background-color: #a59b84;
+  background-color: #838181;
+}
+.up-icon{
+  fill: var(--white-color);
 }
 .btn-go-catalog:hover {
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
